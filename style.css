@@ -2048,9 +2048,9 @@ textarea.w-input, textarea.w-select {
 }
 
 :root {
-  --brand--neutrals--light-background: #fefefe;
-  --text--default--dark-text: #61644c;
-  --brand--primary--action: #717559;
+  --brand--neutrals--light-background: #fef5f0;
+  --text--default--dark-text: #132433;
+  --brand--primary--action: #2c2f32;
   --brand--primary--action-pressed: #0a0a0a;
   --brand--primary--action-hover: #071300;
   --text--default--medium-text: #2b412f;
@@ -2331,6 +2331,7 @@ figure {
 }
 
 .section {
+  background-color: #fff9f6;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -2796,6 +2797,7 @@ figure {
 .heading-h1 {
   font-size: 4rem;
   text-align: center;
+  align-self: center;
 }
 
 .styles-line {
@@ -2923,7 +2925,7 @@ figure {
 
 .rsvp-text-container {
   border: 1px solid var(--brand--primary--action);
-  background-color: #fdfaf1;
+  background-color: #fff4ef;
   flex-flow: column;
   justify-content: flex-end;
   align-items: stretch;
@@ -3130,7 +3132,7 @@ figure {
 
 .faq-accordion {
   border: 1px solid var(--brand--neutrals--grey-mid);
-  background-color: #0000;
+  background-color: #fff4ef;
   border-radius: 1rem;
   flex-direction: column;
   justify-content: flex-start;
@@ -3477,7 +3479,7 @@ figure {
 }
 
 .hero {
-  background-color: #fff8e4;
+  background-color: #f7e6d3;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
